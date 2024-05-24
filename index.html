@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Travel Agency</title>
+    <meta property="og:title" content="Travel Agency" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+        null
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="landing-page-container">
+        <div class="landing-page-top-container">
+          <nav data-role="Header" class="landing-page-navbar">
+            <h1>Travel</h1>
+            <div class="landing-page-right-side">
+              <a href="#main-section" class="landing-page-link">
+                <div class="landing-page-links-container">
+                  <div class="landing-page-container1"></div>
+                </div>
+              </a>
+              <a
+                href="https://www.holidify.com/country/india/places-to-visit.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="landing-page-link01"
+              >
+                <div class="solid-button-container">
+                  <button class="solid-button-button button Button">
+                    <span>Explore places</span>
+                  </button>
+                </div>
+              </a>
+            </div>
+            <div data-role="BurgerMenu" class="landing-page-burger-menu"></div>
+            <div data-role="MobileMenu" class="landing-page-mobile-menu">
+              <div class="landing-page-nav">
+                <div class="landing-page-top">
+                  <h1>Travel</h1>
+                  <div
+                    data-role="CloseMobileMenu"
+                    class="landing-page-close-menu"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="landing-page-icon">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="landing-page-right-side1">
+                  <div class="landing-page-links-container1">
+                    <span class="landing-page-text">Home</span>
+                    <span class="landing-page-text01">About</span>
+                    <span class="landing-page-text02">Tour Packages</span>
+                    <span>Contact</span>
+                  </div>
+                  <a href="#main-section" class="landing-page-link02">
+                    <div class="solid-button-container">
+                      <button class="solid-button-button button Button">
+                        <span>Explore places</span>
+                      </button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="landing-page-follow-container">
+                <span class="landing-page-text04">Follow us on</span>
+                <div class="landing-page-icons-container">
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="landing-page-link03"
+                  >
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="landing-page-icon02"
+                    >
+                      <path
+                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="landing-page-link04"
+                  >
+                    <svg
+                      viewBox="0 0 602.2582857142856 1024"
+                      class="landing-page-icon04"
+                    >
+                      <path
+                        d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="landing-page-link05"
+                  >
+                    <svg
+                      viewBox="0 0 950.8571428571428 1024"
+                      class="landing-page-icon06"
+                    >
+                      <path
+                        d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="landing-page-hero">
+            <div class="landing-page-content-container">
+              <h1 class="Heading landing-page-text05">Book an exclusive</h1>
+              <h2 class="Subheading landing-page-subheading">
+                home for your personal travel
+              </h2>
+              <span class="landing-page-text06">
+                <span>Each property is hand-picked,</span>
+                <br />
+                <span>personally visited and cannot be found elsewhere.</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div id="main-section" class="landing-page-main">
+          <h1>Most famous places</h1>
+          <span class="landing-page-text11">Recommended</span>
+          <div class="landing-page-cards-container">
+            <a
+              href="https://www.holidify.com/places/manali/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="landing-page-link06"
+            >
+              <div class="place-card-container">
+                <img
+                  alt="image"
+                  src="https://www.tripsavvy.com/thmb/ZDRQXV-PiFDTFZu4x22mZkYuw9s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-930881934-5ae56fe48023b90036464e72.jpg"
+                  class="place-card-image"
+                />
+                <div class="place-card-container1">
+                  <span class="place-card-text"><span>Manali</span></span>
+                  <span class="place-card-text1">
+                    <span>
+                      Manali is a town in Himachal Pradesh, India, known for its
+                      cool climate, snow-capped mountains, and lush forests
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://www.holidify.com/places/jodhpur/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="landing-page-link07"
+            >
+              <div class="place-card-container">
+                <img
+                  alt="image"
+                  src="https://static.toiimg.com/thumb/msid-80643897,width-748,height-499,resizemode=4,imgsize-1101324/.jpg"
+                  class="place-card-image"
+                />
+                <div class="place-card-container1">
+                  <span class="place-card-text"><span>Jodhpur</span></span>
+                  <span class="place-card-text1">
+                    <span>
+                      Jodhpur, known as the “Blue City”, is a historic city in
+                      Rajasthan, India, famous for its palaces, forts, and
+                      temples
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://www.holidify.com/places/mumbai/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="landing-page-link08"
+            >
+              <div class="place-card-container">
+                <img
+                  alt="image"
+                  src="https://c1.wallpaperflare.com/preview/118/656/973/mumbai-gateway-to-india-india-ship.jpg"
+                  class="place-card-image"
+                />
+                <div class="place-card-container1">
+                  <span class="place-card-text"><span>Mumbai</span></span>
+                  <span class="place-card-text1">
+                    <span>
+                      Mumbai is India’s financial hub, known for its bustling
+                      lifestyle and home to Bollywood
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://www.holidify.com/state/kerala/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="landing-page-link09"
+            >
+              <div class="place-card-container">
+                <img
+                  alt="image"
+                  src="https://media.istockphoto.com/id/511119924/photo/tea-plantations-and-river-in-hills-kerala-india.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=pYHem1q8SIdCC7t7pv3s6QM1ZrmU3nkCoSaEQMg8vqg="
+                  class="place-card-image"
+                />
+                <div class="place-card-container1">
+                  <span class="place-card-text"><span>Kerela</span></span>
+                  <span class="place-card-text1">
+                    <span>
+                      Kerala is a state in India, renowned for its scenic
+                      landscapes, rich culture, and diverse wildlife
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://www.holidify.com/state/sikkim/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="landing-page-link10"
+            >
+              <div class="place-card-container">
+                <img
+                  alt="image"
+                  src="https://www.bharatbooking.com/admin/webroot/img/uploads/blog/1581398977_415344-Lachung-City-In-between-the-Mountain-Ranges.jpg"
+                  class="place-card-image"
+                />
+                <div class="place-card-container1">
+                  <span class="place-card-text"><span>Sikkim</span></span>
+                  <span class="place-card-text1">
+                    <span>
+                      Sikkim is a biodiverse, landlocked state in northeastern
+                      India, home to Kangchenjunga, the third highest peak on
+                      Earth
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://www.holidify.com/places/mathura/sightseeing-and-things-to-do.html"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="landing-page-link11"
+            >
+              <div class="place-card-container">
+                <img
+                  alt="image"
+                  src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/11/cover-image-of-Mathura_30th-nov.jpg"
+                  class="place-card-image"
+                />
+                <div class="place-card-container1">
+                  <span class="place-card-text"><span>Mathura</span></span>
+                  <span class="place-card-text1">
+                    <span>
+                      Mathura, located in Uttar Pradesh, India, is a city of
+                      great religious significance, being the birthplace of Lord
+                      Krishna
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="landing-page-footer">
+          <div class="landing-page-menu">
+            <h1>Travel</h1>
+            <div class="landing-page-follow-container1">
+              <span class="landing-page-text12">Follow us on</span>
+              <div class="landing-page-icons-container1">
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="landing-page-link12"
+                >
+                  <svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="landing-page-icon08"
+                  >
+                    <path
+                      d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="landing-page-link13"
+                >
+                  <svg
+                    viewBox="0 0 602.2582857142856 1024"
+                    class="landing-page-icon10"
+                  >
+                    <path
+                      d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="landing-page-link14"
+                >
+                  <svg
+                    viewBox="0 0 950.8571428571428 1024"
+                    class="landing-page-icon12"
+                  >
+                    <path
+                      d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>
